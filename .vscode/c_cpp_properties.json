@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/smkm/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/smkm/catkin_ws/src/Imax/epos_manager/include/**",
+        "/home/smkm/catkin_ws/src/not_change/FAST_LIO/include/**",
+        "/home/smkm/catkin_ws/src/Imax/fukuda_utility/include/**",
+        "/home/smkm/catkin_ws/src/not_change/hector_slam/hector_geotiff/include/**",
+        "/home/smkm/catkin_ws/src/not_change/hector_slam/hector_map_tools/include/**",
+        "/home/smkm/catkin_ws/src/not_change/hector_slam/hector_mapping/include/**",
+        "/home/smkm/catkin_ws/src/not_change/hector_slam/hector_marker_drawing/include/**",
+        "/home/smkm/catkin_ws/src/hector_worldmodel/hector_object_tracker/include/**",
+        "/home/smkm/catkin_ws/src/not_change/hector_vision/hector_qrcode_detection/include/**",
+        "/home/smkm/catkin_ws/src/hector_worldmodel/hector_worldmodel_msgs/include/**",
+        "/home/smkm/catkin_ws/src/Imax/imax_dynamixel_controller/include/**",
+        "/home/smkm/catkin_ws/src/Imax/imax_qrcode/include/**",
+        "/home/smkm/catkin_ws/src/Imax/info_integrater_2Dmap/include/**",
+        "/home/smkm/catkin_ws/src/Imax/joy2command/include/**",
+        "/home/smkm/catkin_ws/src/not_change/LiDAR_IMU_Init/include/**",
+        "/home/smkm/catkin_ws/src/Imax/owlift_ros/include/**",
+        "/home/smkm/catkin_ws/src/Imax/readiness_test/include/**",
+        "/home/smkm/catkin_ws/src/Imax/rt_usb_9axisimu_driver/include/**",
+        "/home/smkm/catkin_ws/src/not_change/rtabmap_ros/include/**",
+        "/home/smkm/catkin_ws/src/Imax/slam_nitro/include/**",
+        "/home/smkm/catkin_ws/src/Imax/text_recognition/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
