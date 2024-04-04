@@ -53,7 +53,7 @@
   <depend>geometry_msgs</depend>
   <depend>imax_qrcode</depend>
   <depend>hector_worldmodel_msgs</depend>
-
+  <depend>hector_geotiff</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
