@@ -33,7 +33,7 @@ void tfhazmatCb(const imax_qrcode::TransformStampedArrayConstPtr& msg)
     pp.pose.pose.position.x = msg->transformStampedArray[i].transform.translation.x;
     pp.pose.pose.position.y = msg->transformStampedArray[i].transform.translation.y;
     pp.pose.pose.position.z = msg->transformStampedArray[i].transform.translation.z;
-    pp.info.class_id = "hazmat";
+    pp.info.class_id = "hazmatsign";
     pp.info.class_support = 1.0;
     pp.info.object_support = 1.0;
     pp.info.name = msg->transformStampedArray[i].child_frame_id;
@@ -50,7 +50,7 @@ void tfobjectCb(const imax_qrcode::TransformStampedArrayConstPtr& msg)
     pp.pose.pose.position.x = msg->transformStampedArray[i].transform.translation.x;
     pp.pose.pose.position.y = msg->transformStampedArray[i].transform.translation.y;
     pp.pose.pose.position.z = msg->transformStampedArray[i].transform.translation.z;
-    pp.info.class_id = msg->transformStampedArray[i].child_frame_id;
+    pp.info.class_id = "object";
     pp.info.class_support = 1.0;
     pp.info.object_support = 1.0;
     pp.info.name = msg->transformStampedArray[i].child_frame_id;
